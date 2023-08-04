@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+// https://github.com/vueComponent/ant-design-vue/issues/6407#issuecomment-1636129871
 import { StyleProvider } from 'ant-design-vue/es/_util/cssinjs'
 
 const theme = {
