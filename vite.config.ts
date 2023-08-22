@@ -36,12 +36,12 @@ export default defineConfig({
         replacement: 'vue-i18n/dist/vue-i18n.cjs.js',
       },
       {
-        find: /\/@\//,
-        replacement: pathResolve('src') + '/',
+        find: '@',
+        replacement: pathResolve('src'),
       },
       {
-        find: /\/#\//,
-        replacement: pathResolve('types') + '/',
+        find: '#',
+        replacement: pathResolve('types'),
       },
     ],
   },

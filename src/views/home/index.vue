@@ -11,6 +11,6 @@ const test = ref(0)
   </div>
 </template>
 
-<style scoped>
+<style lang="less" scoped>
 
 </style>
